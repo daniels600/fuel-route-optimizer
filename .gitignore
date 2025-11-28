@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+test_*.csv
+
+# Database
+*.sql
+*.dump
+
+# Geocoding cache (temporary files)
+geocode_cache.json
+*_cache.json
+locationiq_cache.json
+
+# Temporary files
+census_*.csv
+debug_*.csv
+
+# Large data files (use demo data instead)
+fuel_prices.csv
+fuel_prices_ca.csv
+
+# Keep demo data - it's small and needed for demos
+!fuel_prices_demo_geocoded.csv
+
+# OSRM data (large map files)
+osrm-data/
+*.osm.pbf
+*.osrm*
+
+# Claude Code
+.claude/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
